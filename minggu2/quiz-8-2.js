@@ -21,7 +21,7 @@ function dataHandling(input) {
             } else if (j === 2) {
                 console.log("TTL: " + input[i][j] + ', ' + input[i][j + 1])
             } else if (j === 4) {
-                console.log("Nama Lengkap: " + input[i][j])
+                console.log("Hobi: " + input[i][j])
             }
         }
         console.log("")
