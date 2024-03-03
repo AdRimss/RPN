@@ -65,41 +65,41 @@ function dataHandling2(input2) {
     potong = input2[3].split('/')
 
     console.log(input2)
-    switch (potong[1]) {
-        case '01':
+    switch (parseInt(potong[1])) {
+        case 1:
             console.log('Januari')
             break
-        case '02':
+        case 2:
             console.log('Februari')
             break
-        case '03':
+        case 3:
             console.log('Maret')
             break
-        case '04':
+        case 4:
             console.log('April')
             break
-        case '05':
+        case 5:
             console.log('Mei')
             break
-        case '06':
+        case 6:
             console.log('Juni')
             break
-        case '07':
+        case 7:
             console.log('Juli')
             break
-        case '08':
+        case 8:
             console.log('Agustus')
             break
-        case '09':
+        case 9:
             console.log('September')
             break
-        case '10':
+        case 10:
             console.log('Oktober')
             break
-        case '11':
+        case 11:
             console.log('November')
             break
-        case '12':
+        case 12:
             console.log('Desember')
             break
         default:
