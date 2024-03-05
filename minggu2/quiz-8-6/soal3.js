@@ -1,9 +1,17 @@
 //tentukan apakah ini deret aritmatika atau bukan
 function tentukanDeretAritmatika(arr) {
     // you can only write your code here!
+    let isAritmatika = true
     let beda = arr[1] - arr[0]
-    let check = arr[arr.length - 1] - arr[arr.length - 2]
-    return beda == check ? true : false
+    let deret = 0
+    for (let i = arr.length - 1; i > 0; i--) {
+        deret = arr[i] - arr[i - 1]
+        if (deret != beda) {
+            isAritmatika = false
+            break
+        }
+    }
+    return isAritmatika
 }
 
 // TEST CASES
