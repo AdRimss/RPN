@@ -1,1 +1,0 @@
-console.log('Ini Adalah Halaman Baru Yang Akan Dimasukan Ke Dalam Branch Main Pada GitHub')
