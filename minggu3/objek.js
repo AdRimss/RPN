@@ -7,11 +7,12 @@ const myObj = {
         berat: 60
     }
 };
+
 myObj['isNolep'] = true; // or myObj.isNolep <- Nama Objek Baru = ~Value~
 console.log(myObj)
 
 delete myObj.isNolep
-console.log(myObj) // Delete myObj['isNolep']
+console.log(myObj) // or delete myObj['isNolep']
 
 for (const key in myObj) {
     console.log(`${key}: ${myObj[key]}`);
