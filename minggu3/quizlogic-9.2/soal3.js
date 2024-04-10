@@ -3,7 +3,7 @@ function cariMedian(arr) {
     function urut(a, b) {
         return (a - b)
     }
-    arr.sort(urut)
+    arr.sort((a, b) => a - b)
     let i = 0
     if (arr.length % 2 != 0) {
         i = Math.floor(arr.length / 2)
@@ -11,7 +11,6 @@ function cariMedian(arr) {
     } else {
         i = (arr[arr.length / 2] + arr[arr.length / 2 - 1]) / 2
         return i
-        
     }
 }
 
